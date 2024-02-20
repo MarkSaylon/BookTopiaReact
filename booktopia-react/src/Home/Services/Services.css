@@ -1,0 +1,80 @@
+.weProvide{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 1vh;
+    height: 100vh;
+    flex-wrap: nowrap;
+    background: rgb(255, 255, 255);
+    width: 100%;
+}
+.serviceIcon1{
+    width: 11vw;
+    color: #26ff00;
+}
+.serviceIcon{
+    width: 7.5vw;
+    height: 7.5vw;
+}
+.header{
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.serviceTag{
+    font-size: 50px;
+    text-align: center;
+    color: #1D1A1A;
+    
+}
+.services{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    row-gap: 12vh;
+    padding: 20px;
+}
+.service{
+    display: flex;
+    margin: 0 1vw;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 25px;
+    gap: 1vh;
+    width: 200px;
+    box-shadow: 0 0 10px 1px black;
+    padding: 20px;
+    background: #1D1A1A;
+    text-align: center;
+}
+@media (max-width: 768px) {
+    .service {
+      margin: 0 0.5vw;
+      width: 120px;
+      min-width: 150px;
+      flex-basis: 100px;
+    }
+    .weProvide{
+        height: 800px;
+    }
+}
+  
+@media (min-width: 1024px) {
+    .service {
+      width: 300px;
+      min-width: 300px;
+      flex-basis: 300px;
+    }
+}
+.service h2{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #2ac30d;
+}
+.service p{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: grey;
+}

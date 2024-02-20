@@ -1,0 +1,9 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    background-image: url(./Hero/BookTopiaHeroBG.jpg);
+    background-attachment: fixed;
+}
+body::-webkit-scrollbar {
+    display: none;
+}
