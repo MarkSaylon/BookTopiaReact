@@ -4,6 +4,7 @@ import './App.css'
 import Books from'./Books.jsx'
 import Home from './Home/Home.jsx'
 import Cart from './Cart.jsx'
+import Footer from './Footer/Footer.jsx'
 
 
 function App() {
@@ -14,12 +15,13 @@ function App() {
 
   return (
     <>
-      <Header links = {links} selectedLink={selectedLink} onSelectLink={handleSelectLink}/>
+      //<Header links = {links} selectedLink={selectedLink} onSelectLink={handleSelectLink}/>
       <div>
         {selectedLink === 'Home' && <Home onBookClick={() => handleSelectLink('Books')} />}
         {selectedLink === 'Books' && <Books/>}
         {selectedLink === 'My Cart' && <Cart/>}
       </div>
+      <Footer/>
     </>
   )
 }

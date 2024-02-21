@@ -2,3 +2,9 @@
     margin: 0;
     padding: 0;
 }
+.userReviews{
+    background-color: white;
+}
+body{
+    overflow-x: hidden;
+}
